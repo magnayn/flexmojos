@@ -48,6 +48,7 @@ public class DefaultFlexCompiler
             parser.getArgumentsList( cfgHolder.configuration, ICommandLineConfiguration.class );
         if ( cfgHolder.sourceFile != null )
         {
+            argsList.add("--");
             argsList.add( cfgHolder.sourceFile.getAbsolutePath() );
         }
         return CommandUtil.execute( new Command()
