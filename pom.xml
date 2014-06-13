@@ -101,7 +101,7 @@
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>aspectj-maven-plugin</artifactId>
-                    <version>1.4</version>
+                    <version>1.6</version>
                     <configuration>
                         <complianceLevel>1.6</complianceLevel>
                         <source>1.6</source>
@@ -298,7 +298,7 @@
                                     <version>${maven.version}</version>
                                 </requireMavenVersion-->
                                 <requireJavaVersion>
-                                    <version>[1.5,1.8)</version>
+                                    <version>[1.5,)</version>
                                 </requireJavaVersion>
                             </rules>
                         </configuration>
